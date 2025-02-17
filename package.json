@@ -1,0 +1,16 @@
+{
+  "name": "designsystem-samlple1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-tokens": "npx token-transformer ./tokens/tokens.json ./tokens/build-token/global.json global && npx style-dictionary build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^4.3.3",
+    "token-transformer": "^0.0.33"
+  }
+}
