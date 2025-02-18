@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-tokens": "npx token-transformer ./tokens/tokens.json ./tokens/build-token/global.json global && npx style-dictionary build"
+    "build-tokens": "token-transformer ./tokens/tokens.json ./tokens/build-token/global.json global && style-dictionary build"
   },
   "keywords": [],
   "author": "",
